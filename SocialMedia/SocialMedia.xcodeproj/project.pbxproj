@@ -62,7 +62,7 @@
 		538AA91824B8BFA0006AD188 = {
 			isa = PBXGroup;
 			children = (
-				538AA92324B8BFA0006AD188 /* FileManager */,
+				538AA92324B8BFA0006AD188 /* SocialMedia */,
 				538AA92224B8BFA0006AD188 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,7 +75,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		538AA92324B8BFA0006AD188 /* FileManager */ = {
+		538AA92324B8BFA0006AD188 /* SocialMedia */ = {
 			isa = PBXGroup;
 			children = (
 				538AA95024B8C28C006AD188 /* Supporting files */,
@@ -85,7 +85,7 @@
 				538AA93224B8BFA3006AD188 /* Info.plist */,
 				538AA93B24B8C27C006AD188 /* Content */,
 			);
-			path = FileManager;
+			path = SocialMedia;
 			sourceTree = "<group>";
 		};
 		538AA93B24B8C27C006AD188 /* Content */ = {
@@ -119,9 +119,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		538AA92024B8BFA0006AD188 /* FileManager */ = {
+		538AA92024B8BFA0006AD188 /* SocialMedia */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 538AA93524B8BFA3006AD188 /* Build configuration list for PBXNativeTarget "FileManager" */;
+			buildConfigurationList = 538AA93524B8BFA3006AD188 /* Build configuration list for PBXNativeTarget "SocialMedia" */;
 			buildPhases = (
 				538AA91D24B8BFA0006AD188 /* Sources */,
 				538AA91E24B8BFA0006AD188 /* Frameworks */,
@@ -131,7 +131,7 @@
 			);
 			dependencies = (
 			);
-			name = FileManager;
+			name = SocialMedia;
 			productName = FileManager;
 			productReference = 538AA92124B8BFA0006AD188 /* SocialMedia.app */;
 			productType = "com.apple.product-type.application";
@@ -151,7 +151,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 538AA91C24B8BFA0006AD188 /* Build configuration list for PBXProject "FileManager" */;
+			buildConfigurationList = 538AA91C24B8BFA0006AD188 /* Build configuration list for PBXProject "SocialMedia" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -164,7 +164,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				538AA92024B8BFA0006AD188 /* FileManager */,
+				538AA92024B8BFA0006AD188 /* SocialMedia */,
 			);
 		};
 /* End PBXProject section */
@@ -346,7 +346,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JWGV5SUJ3S;
-				INFOPLIST_FILE = FileManager/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SocialMedia/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -354,7 +354,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pmareke.SocialMedia;
 				PRODUCT_NAME = SocialMedia;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -364,7 +364,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JWGV5SUJ3S;
-				INFOPLIST_FILE = FileManager/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SocialMedia/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -372,14 +372,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pmareke.SocialMedia;
 				PRODUCT_NAME = SocialMedia;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		538AA91C24B8BFA0006AD188 /* Build configuration list for PBXProject "FileManager" */ = {
+		538AA91C24B8BFA0006AD188 /* Build configuration list for PBXProject "SocialMedia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				538AA93324B8BFA3006AD188 /* Debug */,
@@ -388,7 +388,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		538AA93524B8BFA3006AD188 /* Build configuration list for PBXNativeTarget "FileManager" */ = {
+		538AA93524B8BFA3006AD188 /* Build configuration list for PBXNativeTarget "SocialMedia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				538AA93624B8BFA3006AD188 /* Debug */,

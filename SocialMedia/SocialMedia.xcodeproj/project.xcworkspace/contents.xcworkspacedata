@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:FileManager.xcodeproj">
+      location = "self:/Users/pmareke/Developer/iOS/100days/SocialMedia/SocialMedia.xcodeproj">
    </FileRef>
 </Workspace>
