@@ -3,3 +3,4 @@
 - [File Manager](/FileManager)
 - [Guess the flag](/GuessTheFlag)
 - [Social Media](/SocialMedia)
+- [Easy Browser](/EasyBrowser)
