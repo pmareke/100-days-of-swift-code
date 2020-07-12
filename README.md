@@ -19,3 +19,7 @@
 ![Word Scramble](images/word.png)
 
 [Word Scramble](/WordScramble)
+
+![Auto Layout](images/layout.png)
+
+[Auto Layout](/AutoLayout)
