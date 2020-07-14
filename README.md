@@ -28,7 +28,7 @@
 
 [WhiteHouse Petitions](/WhiteHousePetitions)
 
-![Swifty Words](images/swiftywords.png)
+![Swifty Words](images/swifty.png)
 
 [Swifty Words](/SwiftyWords)
 
