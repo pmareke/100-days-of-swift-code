@@ -19,6 +19,39 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
   }
+  
+  override func loadView() {
+    view = UIView()
+    view.backgroundColor = .white
+    
+    createScoreLabel()
+    createCluesLabel()
+    createAnswerLabel()
+    createCurrenmtAnswerLabel()
+    
+    let submit = UIButton(type: .system)
+    submit.translatesAutoresizingMaskIntoConstraints = false
+    submit.setTitle("SUBMIT", for: .normal)
+    view.addSubview(submit)
+    submit.addTarget(self, action: #selector(submitTapped), for: .touchUpInside)
+    
+    let clear = UIButton(type: .system)
+    clear.translatesAutoresizingMaskIntoConstraints = false
+    clear.setTitle("CLEAR", for: .normal)
+    view.addSubview(clear)
+    clear.addTarget(self, action: #selector(clearTapped), for: .touchUpInside)
+    
+    let buttonsView = UIView()
+    buttonsView.layer.borderWidth = 1
+    buttonsView.translatesAutoresizingMaskIntoConstraints = false
+    view.addSubview(buttonsView)
+    
+    setPriorities()
+    addConstraints(submit, clear, buttonsView)
+    createLetterButtons(buttonsView)
+    
+    loadLevel()
+  }
 
   private func createScoreLabel() {
     scoreLabel = UILabel()
@@ -116,39 +149,6 @@ class ViewController: UIViewController {
   private func setPriorities() {
     cluesLabel.setContentHuggingPriority(UILayoutPriority(1), for: .vertical)
     answersLabel.setContentHuggingPriority(UILayoutPriority(1), for: .vertical)
-  }
-  
-  override func loadView() {
-    view = UIView()
-    view.backgroundColor = .white
-    
-    createScoreLabel()
-    createCluesLabel()
-    createAnswerLabel()
-    createCurrenmtAnswerLabel()
-    
-    let submit = UIButton(type: .system)
-    submit.translatesAutoresizingMaskIntoConstraints = false
-    submit.setTitle("SUBMIT", for: .normal)
-    view.addSubview(submit)
-    submit.addTarget(self, action: #selector(submitTapped), for: .touchUpInside)
-    
-    let clear = UIButton(type: .system)
-    clear.translatesAutoresizingMaskIntoConstraints = false
-    clear.setTitle("CLEAR", for: .normal)
-    view.addSubview(clear)
-    clear.addTarget(self, action: #selector(clearTapped), for: .touchUpInside)
-    
-    let buttonsView = UIView()
-    buttonsView.layer.borderWidth = 1
-    buttonsView.translatesAutoresizingMaskIntoConstraints = false
-    view.addSubview(buttonsView)
-    
-    setPriorities()
-    addConstraints(submit, clear, buttonsView)
-    createLetterButtons(buttonsView)
-    
-    loadLevel()
   }
   
   @objc func letterTapped(_ sender: UIButton) {
