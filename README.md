@@ -39,3 +39,7 @@
 ![Names To Faces](images/photos.png)
 
 [Names To Faces](/NamesToFaces)
+
+![Pachinko](images/game.png)
+
+[Pachinko](/Pachinko)
