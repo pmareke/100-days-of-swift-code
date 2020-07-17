@@ -51,3 +51,7 @@
 ![Instafilter](images/filter.png)
 
 [Instafilter](/Instafilter)
+
+![Whack a Penguin](images/penguin.png)
+
+[Whack a Penguin](/Penguin)
