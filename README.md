@@ -55,3 +55,7 @@
 ![Whack a Penguin](images/penguin.png)
 
 [Whack a Penguin](/Penguin)
+
+![Animation](images/animation.png)
+
+[Animation](/Animation)
