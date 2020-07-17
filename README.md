@@ -59,3 +59,7 @@
 ![Animation](images/animation.png)
 
 [Animation](/Animation)
+
+![Capital Cities](images/cities.png)
+
+[Capital Cities](/Capital Cities)
